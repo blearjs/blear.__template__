@@ -24,7 +24,7 @@ module.exports = function (coverage) {
     if (coverage) {
         preprocessors = {
             // 原始模块，需要测试覆盖率
-            './index.js': ['coverage']
+            './src/index.js': ['coverage']
         };
         reporters.push('coverage');
     }
