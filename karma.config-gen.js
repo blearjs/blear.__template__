@@ -58,7 +58,12 @@ module.exports = function (coverage) {
                 },
                 {
                     // 加载 node_modules 下的原始文件，但不直接引入，使用模块加载器引入
-                    pattern: './node_modules/blear-*/**/*.+(js|json)',
+                    pattern: './node_modules/blear-*/package.json',
+                    included: false
+                },
+                {
+                    // 加载 node_modules 下的原始文件，但不直接引入，使用模块加载器引入
+                    pattern: './node_modules/blear-*/src/**',
                     included: false
                 },
                 {
