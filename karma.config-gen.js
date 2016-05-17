@@ -57,9 +57,19 @@ module.exports = function (coverage) {
                     included: false
                 },
                 {
+                    // 加载 node_modules 下的原始文件，但不直接引入，使用模块加载器引入
+                    pattern: './node_modules/blear-*/**/*.+(js|json)',
+                    included: false
+                },
+                {
+                    // 加载 src 下的原始文件，但不直接引入，使用模块加载器引入
+                    pattern: './test/test.**',
+                    included: false
+                },
+                {
                     // 加载 test 下的入口文件，但不直接引入，使用模块加载器引入
                     pattern: './test/main.js',
-                    included: false
+                    included: true
                 },
                 // 直接引入测试主文件
                 TEST_FILES
@@ -118,7 +128,7 @@ module.exports = function (coverage) {
             singleRun: true,
 
 
-            middleware: ['custom'],
+            middleware: ['httpServer'],
 
 
             // plugins

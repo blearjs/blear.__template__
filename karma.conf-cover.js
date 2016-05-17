@@ -1,1 +1,1 @@
-module.exports = require('./test/karma-config.js')(true);
+module.exports = require('./karma.config-gen.js')(true);
