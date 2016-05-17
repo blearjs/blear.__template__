@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "blear.__template__ description",
   "scripts": {
+    "live": "browser-sync start --config bs-config.js",
     "test": "node ./node_modules/.bin/karma start --single-run --browsers PhantomJS --reporters progress"
   },
   "preferGlobal": false,
