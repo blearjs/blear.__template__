@@ -1,6 +1,6 @@
 {
   "name": "blear.__template__",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "blear.__template__ description",
   "scripts": {
     "live": "browser-sync start --config bs-config.js",
