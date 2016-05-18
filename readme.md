@@ -1,4 +1,4 @@
-# blearjs 样板
+# blearjs.__template__
 
 [![Build Status][travis-img]][travis-url] 
 
