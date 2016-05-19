@@ -4,7 +4,7 @@
   "description": "blearjs 的模块样板",
   "scripts": {
     "live": "browser-sync start --config bs-config.js",
-    "test": "node ./node_modules/.bin/karma start --single-run --browsers PhantomJS --reporters progress"
+    "test": "node ./node_modules/.bin/karma start karma.conf.js --single-run"
   },
   "preferGlobal": false,
   "bin": {},
