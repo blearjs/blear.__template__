@@ -12,3 +12,4 @@
 
 [coveralls-img]: https://img.shields.io/coveralls/blearjs/blear.__template__/master.svg?maxAge=2592000&style=flat-square
 [coveralls-url]: https://coveralls.io/github/blearjs/blear.__template__?branch=master
+
