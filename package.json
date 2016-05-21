@@ -1,6 +1,6 @@
 {
   "name": "blear.__template__",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "blearjs 的模块样板",
   "scripts": {
     "live": "browser-sync start --config bs-config.js",
