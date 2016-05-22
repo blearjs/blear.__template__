@@ -1,4 +1,5 @@
-# blear.__template__
+# blear.__template__ 
+blearjs 的前后端模块样板
 
 [![npm module][npm-img]][npm-url]
 [![build status][travis-img]][travis-url]

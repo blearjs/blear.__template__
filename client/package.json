@@ -1,7 +1,7 @@
 {
-  "name": "blear.__template__",
-  "version": "1.0.6",
-  "description": "blearjs 的模块样板",
+  "name": "blear.xxx",
+  "version": "1.0.0",
+  "description": "描述",
   "scripts": {
     "live": "browser-sync start --config bs-config.js",
     "test": "node ./node_modules/.bin/karma start karma.conf.js --single-run",

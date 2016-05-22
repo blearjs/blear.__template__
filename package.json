@@ -1,9 +1,8 @@
 {
-  "name": "blear.xxx",
-  "version": "1.0.0",
-  "description": "描述",
+  "name": "blear.__template__",
+  "version": "1.1.0",
+  "description": "blearjs 的前后端模块样板",
   "scripts": {
-    "live": "browser-sync start --config bs-config.js",
     "test-travis": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly",
     "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha",
     "prepublish": "npm test"
@@ -11,7 +10,7 @@
   "preferGlobal": false,
   "bin": {},
   "engines": {
-    "node": ">=1.0.0",
+    "node": ">=4.0.0",
     "iojs": ">=1.0.0"
   },
   "main": "src/index.js",
