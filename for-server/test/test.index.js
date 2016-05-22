@@ -1,5 +1,5 @@
 /**
- * 测试 文件
+ * mocha 测试 文件
  * @author ydr.me
  * @create 2016-05-17 12:13
  */
