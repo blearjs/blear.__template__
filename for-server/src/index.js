@@ -1,5 +1,5 @@
 /**
- * blear.xxx
+ * blear.MODULE_NAME
  * @author ydr.me
  * @create 2016年06月04日14:09:36
  */
