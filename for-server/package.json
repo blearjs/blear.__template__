@@ -40,7 +40,7 @@
   "dependencies": {},
   "peerDependencies": {},
   "devDependencies": {
-    "chai": "^3.5.0",
+    "chai-jasmine": "^1.0.7",
     "istanbul": "^0.4.3",
     "mocha": "^2.4.5"
   },

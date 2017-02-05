@@ -31,7 +31,7 @@ module.exports = function (config) {
             dir: './coverage/'
         });
     } else {
-        browsers = ['Chrome'];
+        browsers = [];
     }
 
 
