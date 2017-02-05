@@ -1,6 +1,6 @@
 {
   "name": "blear.__template__",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "blearjs 的前后端模块样板",
   "scripts": {
     "test-travis": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly",
@@ -39,7 +39,7 @@
   "dependencies": {},
   "peerDependencies": {},
   "devDependencies": {
-    "chai": "^3.5.0",
+    "chai-jasmine": "^1.0.7",
     "istanbul": "^0.4.3",
     "mocha": "^2.4.5"
   },

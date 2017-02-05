@@ -7,7 +7,7 @@
 
 'use strict';
 
-var expect = require('chai').expect;
+var expect = require('chai-jasmine').expect;
 var index = require('../src/index.js');
 
 describe('测试文件', function () {
