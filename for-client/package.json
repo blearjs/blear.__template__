@@ -1,5 +1,5 @@
 {
-  "name": "blear.MODULE_NAME",
+  "name": "blear.MODULE_PATH.MODULE_NAME",
   "version": "1.0.0",
   "description": "描述",
   "scripts": {
@@ -25,13 +25,13 @@
     "url": "https://ydr.me"
   },
   "contributors": [],
-  "homepage": "https://github.com/blearjs/blear.MODULE_NAME",
+  "homepage": "https://github.com/blearjs/blear.MODULE_PATH.MODULE_NAME",
   "repository": {
     "type": "git",
-    "url": "https://github.com/blearjs/blear.MODULE_NAME"
+    "url": "https://github.com/blearjs/blear.MODULE_PATH.MODULE_NAME"
   },
   "bugs": {
-    "url": "https://github.com/blearjs/blear.MODULE_NAME/issues"
+    "url": "https://github.com/blearjs/blear.MODULE_PATH.MODULE_NAME/issues"
   },
   "dependencies": {},
   "peerDependencies": {},
