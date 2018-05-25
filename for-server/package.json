@@ -17,9 +17,6 @@
   "main": "src/index.js",
   "keywords": [
     "blear",
-    "node",
-    "template",
-    "express",
     "cloudcome",
     "ydr.me"
   ],
