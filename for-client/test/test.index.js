@@ -9,9 +9,10 @@
 
 var index = require('../src/index.js');
 
-describe('测试文件', function () {
-    it('exports', function (done) {
+describe('blear.MODULE_PATH.MODULE_NAME', function () {
+
+    it('exports', function () {
         expect(index).toEqual('index');
-        done();
     });
+
 });
