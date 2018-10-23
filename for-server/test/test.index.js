@@ -12,7 +12,7 @@ var index = require('../src/index.js');
 
 describe('blear.MODULE_PATH.MODULE_NAME', function () {
 
-    it('base', function () {
+    it('exports', function () {
         expect(index).toEqual('index');
     });
 
